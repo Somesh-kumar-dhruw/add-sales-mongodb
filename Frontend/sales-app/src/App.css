@@ -1,0 +1,13 @@
+
+
+/* Set text alignment to center for elements with class .App */
+.App {
+  text-align: center;
+}
+
+/* Style for elements with class .app-box */
+.app-box {
+  height: 150vh; /* Set the height to 100% of the viewport height */
+  background: #66a0fd; 
+}
+

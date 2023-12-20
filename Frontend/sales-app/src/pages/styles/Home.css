@@ -1,0 +1,76 @@
+/* Styles for the .container-home-logo class */
+.container-home-logo {
+    display: flex;
+    width: 100vw;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+    background-image: radial-gradient(circle, rgba(50, 50, 50, 0.295), rgba(97, 97, 97, 0.11), rgba(0, 0, 0, 0));
+}
+
+/* Styles for the .container-home-logo-span class */
+.container-home-logo-span {
+    font-family: 'Monoton', cursive;
+    color: rgb(34, 248, 227);
+    font-size: 6rem;
+    border: 10px double rgb(4, 240, 94);
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 10px;
+}
+
+/* Styles for the .overlay class */
+.overlay {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hover effect for .container-home-logo-span */
+.container-home-logo-span:hover {
+    font-size: 8rem;
+}
+
+/* Media query for screens between 950px and 745px */
+@media screen and (max-width: 950px) and (min-width: 745px)  {
+    .container-home-logo-span {
+        font-size: 4.5rem;
+    }
+    .container-home-logo-span:hover {
+        font-size: 5rem;
+    }
+}
+
+/* Media query for screens between 745px and 574px */
+@media screen and (max-width: 745px) and (min-width: 574px)  {
+    .container-home-logo-span {
+        font-size: 3.2rem;
+        padding: 10px;
+    }
+    .container-home-logo-span:hover {
+        font-size: 3.7rem;
+    }
+}
+
+/* Media query for screens between 574px and 414px */
+@media screen and (max-width: 574px) and (min-width: 414px)  {
+    .container-home-logo-span {
+        font-size: 2.5rem;
+        padding: 5px;
+    }
+    .container-home-logo-span:hover {
+        font-size: 2.7rem;
+    }
+}
+
+/* Media query for screens below 414px */
+@media screen and (max-width: 414px)  {
+    .container-home-logo-span {
+        font-size: 1.5rem;
+        padding: 5px;
+    }
+    .container-home-logo-span:hover {
+        font-size: 1.7rem;
+    }
+}

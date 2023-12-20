@@ -1,0 +1,19 @@
+/* Registration.css */
+.registration-form {
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add the box shadow */
+  }
+  
+  @media (max-width: 768px) {
+    /* Apply styles for screens with a maximum width of 768px (Samsung Galaxy Fold) */
+    .registration-form {
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+  
